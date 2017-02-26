@@ -193,3 +193,19 @@
 2017-02-26 18:06:25,743 Ringing the bell for SOME DEAL!!
 2017-02-26 18:06:26,503 Ringing the bell for SOME DEAL!!
 2017-02-26 18:06:27,262 Ringing the bell for SOME DEAL!!
+2017-02-26 18:33:14,200 Found credentials in shared credentials file: ~/.aws/credentials
+2017-02-26 18:33:15,111 Calling s3:list_buckets with {}
+2017-02-26 18:33:15,168 Starting new HTTPS connection (1): s3.amazonaws.com
+2017-02-26 18:33:15,773 Calling paginated s3:list_objects with {u'Bucket': 'ringthebell'}
+2017-02-26 18:33:15,795 Starting new HTTPS connection (1): ringthebell.s3.amazonaws.com
+2017-02-26 18:33:17,421 Calling s3:get_object with {u'Bucket': 'ringthebell', u'Key': u'new_customers_2016-12-12T2024.json'}
+2017-02-26 18:33:17,501 Calling s3:get_object with {u'Bucket': 'ringthebell', u'Key': u'new_customers_2016-12-12T2030.json'}
+2017-02-26 18:33:17,553 Calling s3:get_object with {u'Bucket': 'ringthebell', u'Key': u'new_customers_2016-12-12T2108.json'}
+2017-02-26 18:33:17,627 Calling s3:get_object with {u'Bucket': 'ringthebell', u'Key': u'new_customers_2016-12-13T2007.json'}
+2017-02-26 18:33:17,678 Calling s3:get_object with {u'Bucket': 'ringthebell', u'Key': u'new_customers_2016-12-13T2103.json'}
+2017-02-26 18:33:17,732 Calling s3:get_object with {u'Bucket': 'ringthebell', u'Key': u'new_customers_2016-12-13T2131.json'}
+2017-02-26 18:33:17,801 Calling s3:get_object with {u'Bucket': 'ringthebell', u'Key': u'new_customers_2016-12-13T2204.json'}
+2017-02-26 18:33:17,867 Calling s3:get_object with {u'Bucket': 'ringthebell', u'Key': u'new_customers_2016-12-13T2230.json'}
+2017-02-26 18:33:17,962 Calling s3:get_object with {u'Bucket': 'ringthebell', u'Key': u'new_customers_2016-12-13T2330.json'}
+2017-02-26 18:33:18,048 Calling s3:get_object with {u'Bucket': 'ringthebell', u'Key': u'new_customers_2016-12-14T0230.json'}
+2017-02-26 18:33:18,105 Calling s3:get_object with {u'Bucket': 'ringthebell', u'Key': u'new_customers_2016-12-14T0330.json'}
