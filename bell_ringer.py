@@ -12,7 +12,7 @@ import atexit
 
 #### Logging
 import logging
-logging.basicConfig(filename='example.log',level=logging.INFO,format='%(asctime)s %(message)s')
+logging.basicConfig(filename='/fruit/bell/example.log',level=logging.INFO,format='%(asctime)s %(message)s')
 
 logging.info('Start Bell Ringer')
 
