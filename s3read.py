@@ -3,6 +3,9 @@ import json
 from pprint import  pprint as pp
 from sets import Set
 import os
+import logging
+logging.basicConfig(filename='example.log',level=logging.INFO,format='%(asctime)s %(message)s')
+
 
 s3 = boto3.resource('s3')
 
